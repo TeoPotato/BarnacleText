@@ -5,6 +5,13 @@
 		body {
  		 background-color: #9b59b6;
 		}
+
+		.parent {
+		  display: flex;
+  		  justify-content: space-between;
+		} 
+
+		
 		.button {
   		border: none;
  		color: white;
@@ -44,11 +51,14 @@
 	  <link rel="icon" type="image/x-icon" href="/favicon.ico">
   </head>
   <body>
-	  <b><h1 class="h1">BarnacleText</h1></b>
-	  <div class="buttons">
-        	<button class="button button1" id="openfile">Open</button>
-        	<button class="button button1" id="savefile">Save</button>
-      	  </div>
+	  <div class = "parent">
+		  <b><h1 class="h1">BarnacleText</h1></b>
+	  	<div class="buttons">
+        		<button class="button button1" id="openfile">Open</button>
+        		<button class="button button1" id="savefile">Save</button>
+      	  	</div>
+	  </div>
+	  
     <div class="container">
       <textarea id="content" placeholder="..." cols="150" rows="50"></textarea>
       <div class="buttons">
