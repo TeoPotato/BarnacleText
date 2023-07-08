@@ -1,5 +1,5 @@
 <h1>BarnacleText</h1>
-A simple text editor made with python.
+A simple text editor made with html and javascript.
 
 <h2>Use</h2>
-Just pull up the code called "Barnacle" in Visual Studio or something else and run it. I'm working on packaging it as an executable!
+Use the website!!!
